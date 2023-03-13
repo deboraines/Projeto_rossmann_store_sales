@@ -3,25 +3,28 @@
 </h1>
 
 <h1 align="center">
-  <img alt="rossmann" title="#logo" src="./images/house_guide.jpg" w=512 heigth="700" width="800"/>
+  <img alt="rossmann" title="#logo" src="./images/forecast_sales.jpg" w=512 heigth="400" width="600"/>
 </h1>
 
 ## 1. Problema de negócio
   A previsão de vendas para as próximas 6 semanas nas lojas Rossmann fornecerá uma estimativa da receita esperada para o período com base em vários fatores, como dados históricos de vendas, tendências de mercado, sazonalidade, promoções, concorrência e condições econômicas. 
+  
   Essa previsão ajudará as lojas Rossmann a planejar e alocar recursos de maneira eficaz, otimizar os níveis de estoque e ajustar preços e estratégias promocionais para maximizar vendas e lucros.
 
 ### 1.1 Contexto de Negócio
    A previsão refere-se às lojas Rossmann, que operam com mais de 3000 drogarias. Atualmente, os gerentes de loja da Rossmann têm a tarefa de  prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, concorrência, feriados escolares e estaduais, sazonalidade e localidade, Com milhares de gerentes individuais prevendo vendas com base em suas circunstâncias únicas, a precisão de resultados pode variar bastante. 
+  
   O objetivo da previsão é fornecer às lojas Rossmann informações valiosas sobre o volume de vendas e a receita esperada das próximas 6 semanas, baseado nos dados de vendas das 6 semanas anteriores, o que pode ajudá-los a ajustar suas estratégias e tomar decisões com base nas informações mais recentes. Isso pode ser especialmente importante para uma empresa de varejo como a Rossmann, que pode ser afetada por vários fatores, como concorrência, comportamento do consumidor e condições econômicas.
   
  ### 1.2 Objetivos
-  Os objetivos da previsão de vendas das lojas Rossmann são:
-  Planejamento: A previsão pode ajudar as lojas Rossmann a planejar seu estoque, pessoal e outros recursos de forma mais eficaz, fornecendo-lhes informações sobre o volume de vendas e a receita esperada.
-  Orçamento: A previsão pode ajudar as lojas Rossmann a desenvolver um orçamento mais preciso, fornecendo-lhes uma melhor compreensão de suas receitas e despesas esperadas.
-  Marketing: A previsão pode ajudar as lojas Rossmann a desenvolver estratégias de marketing mais eficazes, identificando tendências e padrões de comportamento do consumidor, bem como antecipando o impacto de promoções ou eventos futuros.
-  Avaliação de desempenho: A previsão pode ajudar as lojas Rossmann a avaliar seu desempenho, comparando seu volume de vendas e receita reais com os valores previstos. Isso pode ajudá-los a identificar áreas de melhoria e fazer ajustes conforme necessário.
-  Decisões de negócios: A previsão pode ajudar as lojas Rossmann a tomar decisões de negócios, fornecendo-lhes uma melhor compreensão do mercado e do comportamento do consumidor. Isso pode incluir decisões relacionadas a preços, seleção de produtos e expansão ou contração de operações.
-  No geral, o objetivo da previsão de vendas da loja Rossmann para as próximas 6 semanas é fornecer ao negócio uma compreensão mais clara do desempenho de vendas esperado e ajudar a orientar a tomada de decisões para obter melhores resultados.
+Os objetivos da previsão de vendas das lojas Rossmann são:
+- Planejamento: A previsão pode ajudar as lojas Rossmann a planejar seu estoque, pessoal e outros recursos de forma mais eficaz, fornecendo-lhes informações sobre o volume de vendas e a receita esperada.
+- Orçamento: A previsão pode ajudar as lojas Rossmann a desenvolver um orçamento mais preciso, fornecendo-lhes uma melhor compreensão de suas receitas e despesas esperadas.
+- Marketing: A previsão pode ajudar as lojas Rossmann a desenvolver estratégias de marketing mais eficazes, identificando tendências e padrões de comportamento do consumidor, bem como antecipando o impacto de promoções ou eventos futuros.
+- Avaliação de desempenho: A previsão pode ajudar as lojas Rossmann a avaliar seu desempenho, comparando seu volume de vendas e receita reais com os valores previstos. Isso pode ajudá-los a identificar áreas de melhoria e fazer ajustes conforme necessário.
+- Decisões de negócios: A previsão pode ajudar as lojas Rossmann a tomar decisões de negócios, fornecendo-lhes uma melhor compreensão do mercado e do comportamento do consumidor. Isso pode incluir decisões relacionadas a preços, seleção de produtos e expansão ou contração de operações.
+  
+No geral, o objetivo da previsão de vendas da loja Rossmann para as próximas 6 semanas é fornecer ao negócio uma compreensão mais clara do desempenho de vendas esperado e ajudar a orientar a tomada de decisões para obter melhores resultados.
 
 
 ### 2.1 Ferramentas
@@ -99,45 +102,53 @@ Os dados para esse projeto foram coletados na plataforma do Kaggle: https://www.
 ## 5. Dez Principais Insights
 - **H1:** Lojas com maior sortimentos deveriam vender mais.
       
-      ✅ **Verdadeira:** 
-      - Na média, lojas com MAIOR SORTIMENTO vendem MAIS.
+    ✅ **Verdadeira:** 
+    - Na média, lojas com MAIOR SORTIMENTO vendem MAIS.
       
 - **H2:** Lojas com competidores mais próximos deveriam vender menos.
       
-      ❌ **Falsa:** 
-      - Lojas com competidores mais próximos entre 0 a 2000 metros, vendem acima da média de vendas que é 6955.
+    ❌ **Falsa:** 
+    - Lojas com competidores mais próximos entre 0 a 2000 metros, vendem acima da média de vendas que é 6955.
 
 - **H3:** Lojas com competidores à mais tempo deveriam vender mais.
-      ❌ **Falsa:** 
-      - Lojas com competidores à mais tempo vendem menos que a média de vendas que é de 6955.
+    
+    ❌ **Falsa:** 
+    - Lojas com competidores à mais tempo vendem menos que a média de vendas que é de 6955.
       
 - **H4:** Lojas com promoções ativas por mais tempo deveriam vender mais.
-      ✅ **Verdadeira:** 
-      - Lojas com promoções ativas por mais tempo vendem mais, depois de um certo período de promoção. Muitas lojas ficaram acima da média de vendas de 6955.
+    
+    ✅ **Verdadeira:** 
+    - Lojas com promoções ativas por mais tempo vendem mais, depois de um certo período de promoção. Muitas lojas ficaram acima da média de vendas de 6955.
       
 - **H5:** Lojas com mais promoções consecutivas deveriam vender mais.
-      ❌ **Falsa:** 
-      - Lojas com mais promoções consecutivas vendem menos do que lojas que participam apenas da promoção tradicional (1ª promoção).
+    
+    ❌ **Falsa:** 
+    - Lojas com mais promoções consecutivas vendem menos do que lojas que participam apenas da promoção tradicional (1ª promoção).
       
 - **H6:** Lojas abertas durante o feriado de Natal deveriam vender mais.
-      ❌ **Falsa:** 
-      - Lojas abertas durante o feriado de Natal na média vendem mais que os feriados públicos e dias normais, mas vedem menos que o feriado da Páscoa. Somente em 2014 que as lojas venderam mais no feriado de Natal.
+    
+    ❌ **Falsa:** 
+    - Lojas abertas durante o feriado de Natal na média vendem mais que os feriados públicos e dias normais, mas vedem menos que o feriado da Páscoa. Somente em 2014 que as lojas venderam mais no feriado de Natal.
 
 - **H7:** Lojas deveriam vender mais ao longo dos anos.
-      ❌ **Falsa:** 
-      - Lojas vendem menos ao longo dos anos.
+    
+    ❌ **Falsa:** 
+    - Lojas vendem menos ao longo dos anos.
       
 - **H8:** Lojas deveriam vender mais no segundo semestre do ano.
-      ❌ **Falsa:** 
-      - Lojas vendem menos no segundo semestre do ano.
+    
+    ❌ **Falsa:** 
+    - Lojas vendem menos no segundo semestre do ano.
       
 - **H9:** Lojas deveriam vender mais depois do dia 10 de cada mês.
-      ✅ **Verdadeira:** 
-      - Lojas vendem mais depois do dia 10 de cada mes. Pelo fato de ter mais dias no mês, 20 dias contra 10. As vendas são maiores antes do dia 10 quando olhamos para as médias de vendas pelos grupos: "Antes do dia 10" & "Depois do dia 10".
+   
+    ✅ **Verdadeira:** 
+    - Lojas vendem mais depois do dia 10 de cada mes. Pelo fato de ter mais dias no mês, 20 dias contra 10. As vendas são maiores antes do dia 10 quando olhamos para as médias de vendas pelos grupos: "Antes do dia 10" & "Depois do dia 10".
       
 - **H10:** Lojas deveriam vender mais depois do dia 10 de cada mês.
-      ✅ **Verdadeira:** 
-      - Lojas vendem menos nos finais de semana.
+    
+    ✅ **Verdadeira:** 
+    - Lojas vendem menos nos finais de semana.
       
 ## 6. Criação do Modelo de Machine Learning
 - Comparei a performance entre os principais modelos pelos 3 tipos de erros, MAE, MAPE e RMSE.
@@ -150,5 +161,5 @@ Os dados para esse projeto foram coletados na plataforma do Kaggle: https://www.
     - A loja 3 nas próximas 6 semanas vai vender 261 mil e pode ter um erro de 580 e esse erro de 580 corresponde a 8% das vendas reais em média que essa loja faz.
   
 ## 7. Resultados Finais 
-- Calculei o total da performance:
+- Calculei o total da performance e obtive o seguinte resultado:
   - A soma de predições para as próximas 6 semanas em todas as lojas é de 285 milhões, onde no pior cenário vai fazer 284 milhões e no melhor cenário vai fazer 285 milhões.
