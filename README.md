@@ -152,7 +152,7 @@ Os dados para esse projeto foram coletados na plataforma do Kaggle: https://www.
       
 ## 6. Criação do Modelo de Machine Learning
 - Comparei a performance entre os principais modelos pelos 3 tipos de erros, MAE, MAPE e RMSE.
-- Optei pelo modelo Random Forest Regressor que apresentou o menor erro RMSE.
+- Optei pelo modelo XGBoost Regressor.
 - Rodei o modelo final com os melhores valores que o Random Forest escolheu e com menor erro MAE.
 - Calculei a performance somando as predições de cada loja, peguei o erro MAE e MAPE para cada loja. 
   - Calculei o melhor e pior cenário de vendas subtraindo e somando o erro MAE. Abaixo a tradução do resultado do cálculo de melhor e pior cenário de vendas para as lojas: 
